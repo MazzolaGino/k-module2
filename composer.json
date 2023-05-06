@@ -1,0 +1,26 @@
+{
+    "name": "kuroxray/klib2",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "KLib2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mazzola Gino",
+            "email": "kuro.azeus@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twig/twig": "^3.5",
+        "timber/timber": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
